@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RegistroComponent } from './Components/registro/registro.component';
+import { NinoComponent } from './Components/nino/nino.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistroComponent,
+    NinoComponent
   ],
   imports: [
     BrowserModule,
